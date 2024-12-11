@@ -12,7 +12,9 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, SQMeshi.MOD_ID);
 
     public static final RegistryObject<Item> FUSEBUD = ITEMS.register("fusebud",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(ModFoodProperties.FUSEBUD)));
+    public static final RegistryObject<Item> MARROW = ITEMS.register("marrow",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.MARROW)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

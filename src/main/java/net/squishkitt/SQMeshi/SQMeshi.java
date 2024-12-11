@@ -47,6 +47,7 @@ public class SQMeshi {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.FUSEBUD);
+            event.accept(ModItems.MARROW);
         }
     }
 

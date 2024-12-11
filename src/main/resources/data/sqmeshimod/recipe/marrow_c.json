@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "minecraft:bone"
+  },
+  "result": {
+    "id": "sqmeshimod:marrow"
+  },
+  "experience": 0.35,
+  "cookingtime": 600
+}
