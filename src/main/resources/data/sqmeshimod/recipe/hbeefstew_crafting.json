@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "sqmeshimod:salt"
+        },
+        {
+            "item": "minecraft:potato"
+        },
+        {
+            "item": "minecraft:cooked_beef"
+        },
+        {
+            "item": "minecraft:cooked_beef"
+        },
+        {
+            "item": "minecraft:potato"
+        },
+        {
+            "item": "minecraft:cooked_beef"
+        },
+        {
+            "item": "minecraft:bowl"
+        }
+    ],
+    "result": {
+        "id": "sqmeshimod:hbeefstew",
+        "count": 1
+    }
+}

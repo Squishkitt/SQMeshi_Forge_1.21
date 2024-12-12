@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "sqmeshimod:raw_turt_egg"
+  },
+  "result": {
+    "id": "sqmeshimod:cooked_turt_egg"
+  },
+  "experience": 0.30,
+  "cookingtime": 100
+}

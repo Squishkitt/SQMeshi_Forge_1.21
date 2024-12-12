@@ -63,6 +63,19 @@ public class SQMeshi {
             event.accept(ModItems.CRIM_JELLO);
 
             event.accept(ModItems.BRIOCHE);
+
+            event.accept(ModItems.RAW_EGG);
+            event.accept(ModItems.COOKED_EGG);
+
+            event.accept(ModItems.RAW_TURT_EGG);
+            event.accept(ModItems.COOKED_TURT_EGG);
+
+            event.accept(ModItems.RAW_SNIFF_EGG);
+            event.accept(ModItems.COOKED_SNIFF_EGG);
+
+            event.accept(ModItems.CURRY);
+            event.accept(ModItems.BEEFSTEW);
+            event.accept(ModItems.HBEEFSTEW);
         }
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.CARAMEL);

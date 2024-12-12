@@ -1,5 +1,6 @@
 package net.squishkitt.SQMeshi.item;
 
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Rarity;
 import net.squishkitt.SQMeshi.SQMeshi;
 import net.minecraft.world.item.Item;
@@ -48,6 +49,29 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SALT = ITEMS.register("salt",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAW_EGG = ITEMS.register("raw_egg",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.RAW_EGG).craftRemainder(Items.BOWL).stacksTo(1)));
+    public static final RegistryObject<Item> COOKED_EGG = ITEMS.register("cooked_egg",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.COOKED_EGG).craftRemainder(Items.BOWL).stacksTo(1)));
+
+    public static final RegistryObject<Item> RAW_TURT_EGG = ITEMS.register("raw_turt_egg",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.RAW_TURT_EGG).craftRemainder(Items.BOWL).stacksTo(1)));
+    public static final RegistryObject<Item> COOKED_TURT_EGG = ITEMS.register("cooked_turt_egg",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.COOKED_TURT_EGG).craftRemainder(Items.BOWL).stacksTo(1)));
+
+    public static final RegistryObject<Item> RAW_SNIFF_EGG = ITEMS.register("raw_sniff_egg",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.RAW_SNIFF_EGG).craftRemainder(Items.BOWL).stacksTo(1)));
+    public static final RegistryObject<Item> COOKED_SNIFF_EGG = ITEMS.register("cooked_sniff_egg",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.COOKED_SNIFF_EGG).craftRemainder(Items.BOWL).stacksTo(1)));
+
+    public static final RegistryObject<Item> CURRY = ITEMS.register("curry",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CURRY).craftRemainder(Items.BOWL).stacksTo(1)));
+
+    public static final RegistryObject<Item> BEEFSTEW = ITEMS.register("beefstew",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BEEFSTEW).craftRemainder(Items.BOWL).stacksTo(1)));
+    public static final RegistryObject<Item> HBEEFSTEW = ITEMS.register("hbeefstew",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.HBEEFSTEW).craftRemainder(Items.BOWL).stacksTo(1)));
 
 
     public static void register(IEventBus eventBus) {

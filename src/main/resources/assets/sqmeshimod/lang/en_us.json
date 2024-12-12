@@ -17,6 +17,19 @@
 
   "item.sqmeshimod.brioche": "Brioche",
 
+  "item.sqmeshimod.raw_egg": "Raw Egg",
+  "item.sqmeshimod.cooked_egg": "Cooked Egg",
+
+  "item.sqmeshimod.raw_turt_egg": "Raw Turtle Egg",
+  "item.sqmeshimod.cooked_turt_egg": "Cooked Turtle Egg",
+
+  "item.sqmeshimod.raw_sniff_egg": "Raw Sniffer Egg",
+  "item.sqmeshimod.cooked_sniff_egg": "Cooked Sniffer Egg",
+
+  "item.sqmeshimod.curry": "Fire Resistant Curry",
+  "item.sqmeshimod.beefstew": "Burly Beef Stew",
+  "item.sqmeshimod.hbeefstew": "Hearty Beef Stew",
+
   "item.sqmeshimod.caramel": "Caramel",
   "item.sqmeshimod.salt": "Nether Salt"
 }

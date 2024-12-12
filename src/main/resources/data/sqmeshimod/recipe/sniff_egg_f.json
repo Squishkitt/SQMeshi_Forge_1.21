@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "sqmeshimod:raw_sniff_egg"
+  },
+  "result": {
+    "id": "sqmeshimod:cooked_sniff_egg"
+  },
+  "experience": 0.8,
+  "cookingtime": 200
+}
