@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "sqmeshimod:end_skewer"
+  },
+  "result": {
+    "id": "sqmeshimod:end_skewer_cooked"
+  },
+  "experience": 1.0,
+  "cookingtime": 400
+}

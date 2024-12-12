@@ -6,9 +6,9 @@
   "item.sqmeshimod.carcookie": "Caramel-Chocolate Cookie",
   "item.sqmeshimod.scaramel": "Nether-Salted Caramel",
 
-  "item.sqmeshimod.sc_pork": "Nether Salt Cured Porkchop",
-  "item.sqmeshimod.sc_lamb": "Nether Salt Cured Mutton",
-  "item.sqmeshimod.sc_beef": "Nether Salt Cured Beef",
+  "item.sqmeshimod.sc_pork": "Salt Cured Porkchop",
+  "item.sqmeshimod.sc_lamb": "Salt Cured Mutton",
+  "item.sqmeshimod.sc_beef": "Salt Cured Beef",
 
   "item.sqmeshimod.glow_jello": "Luminous Jelly",
   "item.sqmeshimod.beet_jello": "Beetroot Jelly",
@@ -29,6 +29,27 @@
   "item.sqmeshimod.curry": "Fire Resistant Curry",
   "item.sqmeshimod.beefstew": "Burly Beef Stew",
   "item.sqmeshimod.hbeefstew": "Hearty Beef Stew",
+
+  "item.sqmeshimod.sfishegg": "Silverfish Eggs",
+  "item.sqmeshimod.candy": "Caramel Candy",
+
+  "item.sqmeshimod.roast_pumpkin": "Roast Pumpkin",
+  "item.sqmeshimod.stuffed_pumpkin": "Stuffed Roast Pumpkin",
+
+  "item.sqmeshimod.eye": "Raw Guardian Eye",
+  "item.sqmeshimod.cooked_eye": "Roast Guardian Eye",
+  "item.sqmeshimod.cooked_spider_eye": "Roast Spider Eye",
+
+  "item.sqmeshimod.slime_skewer": "Raw Slime Skewer",
+  "item.sqmeshimod.end_skewer": "Raw Ender Pearl Skewer",
+  "item.sqmeshimod.neth_skewer": "Raw Magma Cream Skewer",
+
+  "item.sqmeshimod.slime_skewer_cooked": "Grilled Slime Skewer",
+  "item.sqmeshimod.end_skewer_cooked": "Grilled Ender Pearl Skewer",
+  "item.sqmeshimod.neth_skewer_cooked": "Grilled Magma Cream Skewer",
+
+  "item.sqmeshimod.heart": "Warden Heart",
+  "item.sqmeshimod.heart_cooked": "Cooked Warden Heart",
 
   "item.sqmeshimod.caramel": "Caramel",
   "item.sqmeshimod.salt": "Nether Salt"

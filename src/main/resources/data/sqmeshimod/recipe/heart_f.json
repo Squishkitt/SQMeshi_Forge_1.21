@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "sqmeshimod:heart"
+  },
+  "result": {
+    "id": "sqmeshimod:heart_cooked"
+  },
+  "experience": 10,
+  "cookingtime": 6000
+}

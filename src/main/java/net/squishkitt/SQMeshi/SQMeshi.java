@@ -48,10 +48,24 @@ public class SQMeshi {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.FUSEBUD);
             event.accept(ModItems.MARROW);
+            event.accept(ModItems.SFISHEGG);
+            event.accept(ModItems.EYE);
+            event.accept(ModItems.COOKED_EYE);
+            event.accept(ModItems.COOKED_SPIDER_EYE);
+            event.accept(ModItems.HEART_COOKED);
             event.accept(ModItems.BAPPLE);
+            event.accept(ModItems.ROAST_PUMPKIN);
+            event.accept(ModItems.STUFFED_PUMPKIN);
             event.accept(ModItems.CAPPLE);
+            event.accept(ModItems.SLIME_SKEWER);
+            event.accept(ModItems.END_SKEWER);
+            event.accept(ModItems.NETH_SKEWER);
+            event.accept(ModItems.SLIME_SKEWER_COOKED);
+            event.accept(ModItems.END_SKEWER_COOKED);
+            event.accept(ModItems.NETH_SKEWER_COOKED);
             event.accept(ModItems.CARCOOKIE);
             event.accept(ModItems.SCARAMEL);
+            event.accept(ModItems.CANDY);
 
             event.accept(ModItems.SC_PORK);
             event.accept(ModItems.SC_LAMB);
@@ -78,6 +92,7 @@ public class SQMeshi {
             event.accept(ModItems.HBEEFSTEW);
         }
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.HEART);
             event.accept(ModItems.CARAMEL);
             event.accept(ModItems.SALT);
         }

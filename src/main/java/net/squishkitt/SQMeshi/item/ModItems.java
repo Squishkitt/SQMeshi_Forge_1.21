@@ -73,6 +73,41 @@ public class ModItems {
     public static final RegistryObject<Item> HBEEFSTEW = ITEMS.register("hbeefstew",
             () -> new Item(new Item.Properties().food(ModFoodProperties.HBEEFSTEW).craftRemainder(Items.BOWL).stacksTo(1)));
 
+    public static final RegistryObject<Item> SFISHEGG = ITEMS.register("sfishegg",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SFISHEGG)));
+    public static final RegistryObject<Item> CANDY = ITEMS.register("candy",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CANDY).stacksTo(16)));
+
+    public static final RegistryObject<Item> ROAST_PUMPKIN = ITEMS.register("roast_pumpkin",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ROAST_PUMPKIN).stacksTo(16)));
+    public static final RegistryObject<Item> STUFFED_PUMPKIN = ITEMS.register("stuffed_pumpkin",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.STUFFED_PUMPKIN).stacksTo(16)));
+
+    public static final RegistryObject<Item> EYE = ITEMS.register("eye",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.EYE)));
+    public static final RegistryObject<Item> COOKED_EYE = ITEMS.register("cooked_eye",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.COOKED_EYE)));
+    public static final RegistryObject<Item> COOKED_SPIDER_EYE = ITEMS.register("cooked_spider_eye",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.COOKED_SPIDER_EYE)));
+
+    public static final RegistryObject<Item> SLIME_SKEWER = ITEMS.register("slime_skewer",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SLIME_SKEWER)));
+    public static final RegistryObject<Item> END_SKEWER = ITEMS.register("end_skewer",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.END_SKEWER)));
+    public static final RegistryObject<Item> NETH_SKEWER = ITEMS.register("neth_skewer",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.NETH_SKEWER)));
+
+    public static final RegistryObject<Item> SLIME_SKEWER_COOKED = ITEMS.register("slime_skewer_cooked",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SLIME_SKEWER_COOKED)));
+    public static final RegistryObject<Item> END_SKEWER_COOKED = ITEMS.register("end_skewer_cooked",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.END_SKEWER_COOKED)));
+    public static final RegistryObject<Item> NETH_SKEWER_COOKED = ITEMS.register("neth_skewer_cooked",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.NETH_SKEWER_COOKED)));
+
+    public static final RegistryObject<Item> HEART = ITEMS.register("heart",
+            () -> new Item(new Item.Properties().stacksTo(1).rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> HEART_COOKED = ITEMS.register("heart_cooked",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.HEART_COOKED).stacksTo(1).rarity(Rarity.EPIC)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

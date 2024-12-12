@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "WSW",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:red_mushroom"
+        },
+        "W": {
+            "item": "minecraft:wheat"
+        },
+        "S": {
+            "item": "sqmeshimod:roast_pumpkin"
+        }
+    },
+    "result": {
+        "id": "sqmeshimod:stuffed_pumpkin",
+        "count": 1
+    }
+}

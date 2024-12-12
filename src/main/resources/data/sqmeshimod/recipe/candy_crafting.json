@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#P",
+        "P#"
+    ],
+    "key": {
+        "#": {
+            "item": "sqmeshimod:caramel"
+        },
+        "P": {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "id": "sqmeshimod:candy",
+        "count": 8
+    }
+}

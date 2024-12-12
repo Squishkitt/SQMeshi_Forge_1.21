@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "minecraft:spider_eye"
+  },
+  "result": {
+    "id": "sqmeshimod:cooked_spider_eye"
+  },
+  "experience": 0.35,
+  "cookingtime": 600
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "sqmeshimod:eye"
+  },
+  "result": {
+    "id": "sqmeshimod:cooked_eye"
+  },
+  "experience": 1.0,
+  "cookingtime": 1200
+}

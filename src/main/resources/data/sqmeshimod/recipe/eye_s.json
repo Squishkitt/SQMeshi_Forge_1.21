@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "sqmeshimod:eye"
+  },
+  "result": {
+    "id": "sqmeshimod:cooked_eye"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}
