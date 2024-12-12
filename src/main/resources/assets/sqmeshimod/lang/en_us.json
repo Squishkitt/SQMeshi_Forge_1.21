@@ -3,6 +3,12 @@
   "item.sqmeshimod.marrow": "Roast Marrow",
   "item.sqmeshimod.bapple": "Baked Apple",
   "item.sqmeshimod.capple": "Candy Apple",
+  "item.sqmeshimod.carcookie": "Caramel-Chocolate Cookie",
+  "item.sqmeshimod.scaramel": "Nether-Salted Caramel",
+  "item.sqmeshimod.sc_pork": "Nether Salt Cured Porkchop",
+  "item.sqmeshimod.sc_lamb": "Nether Salt Cured Mutton",
+  "item.sqmeshimod.sc_beef": "Nether Salt Cured Beef",
+
   "item.sqmeshimod.caramel": "Caramel",
-  "item.sqmeshimod.carcookie": "Caramel-Chocolate Cookie"
+  "item.sqmeshimod.salt": "Nether Salt"
 }

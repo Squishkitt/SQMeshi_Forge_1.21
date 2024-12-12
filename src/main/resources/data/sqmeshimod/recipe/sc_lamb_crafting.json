@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:mutton"
+        },
+        {
+            "item": "sqmeshimod:salt"
+        },
+        {
+            "item": "minecraft:mutton"
+        }
+    ],
+    "result": {
+        "id": "sqmeshimod:sc_lamb",
+        "count": 2
+    }
+}

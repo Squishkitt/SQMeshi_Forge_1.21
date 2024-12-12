@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:ghast_tear"
+  },
+  "result": {
+    "id": "sqmeshimod:salt"
+  },
+  "experience": 0.50,
+  "cookingtime": 300
+}

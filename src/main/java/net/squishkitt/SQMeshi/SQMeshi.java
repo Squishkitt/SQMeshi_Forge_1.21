@@ -51,9 +51,14 @@ public class SQMeshi {
             event.accept(ModItems.BAPPLE);
             event.accept(ModItems.CAPPLE);
             event.accept(ModItems.CARCOOKIE);
+            event.accept(ModItems.SCARAMEL);
+            event.accept(ModItems.SC_PORK);
+            event.accept(ModItems.SC_LAMB);
+            event.accept(ModItems.SC_BEEF);
         }
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.CARAMEL);
+            event.accept(ModItems.SALT);
         }
     }
 

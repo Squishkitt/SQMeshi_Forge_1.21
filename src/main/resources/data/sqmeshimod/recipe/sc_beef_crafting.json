@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:beef"
+        },
+        {
+            "item": "sqmeshimod:salt"
+        },
+        {
+            "item": "minecraft:beef"
+        }
+    ],
+    "result": {
+        "id": "sqmeshimod:sc_beef",
+        "count": 2
+    }
+}

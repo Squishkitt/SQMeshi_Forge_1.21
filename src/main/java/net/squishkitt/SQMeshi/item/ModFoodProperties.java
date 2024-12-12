@@ -17,5 +17,16 @@ public class ModFoodProperties {
             .build();
     public static final FoodProperties CAPPLE = new FoodProperties.Builder().nutrition(8).saturationModifier(0.8f)
             .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 1800, 2),1.0f).alwaysEdible().usingConvertsTo(Items.STICK).build();
+    public static final FoodProperties SCARAMEL = new FoodProperties.Builder().nutrition(2).saturationModifier(0.3f)
+            .effect(new MobEffectInstance(MobEffects.REGENERATION, 20, 4),1.0f).alwaysEdible().build();
+
+    public static final FoodProperties SC_PORK = new FoodProperties.Builder().nutrition(4).saturationModifier(0.7f)
+            .effect(new MobEffectInstance(MobEffects.REGENERATION, 150, 2),1.0f).alwaysEdible().build();
+
+    public static final FoodProperties SC_LAMB = new FoodProperties.Builder().nutrition(3).saturationModifier(0.7f)
+            .effect(new MobEffectInstance(MobEffects.REGENERATION, 450, 1),1.0f).alwaysEdible().build();
+
+    public static final FoodProperties SC_BEEF = new FoodProperties.Builder().nutrition(4).saturationModifier(0.7f)
+            .effect(new MobEffectInstance(MobEffects.REGENERATION, 900),1.0f).alwaysEdible().build();
 
 }

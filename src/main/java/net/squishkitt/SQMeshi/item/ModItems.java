@@ -19,10 +19,23 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.BAPPLE)));
     public static final RegistryObject<Item> CAPPLE = ITEMS.register("capple",
             () -> new Item(new Item.Properties().food(ModFoodProperties.CAPPLE)));
-    public static final RegistryObject<Item> CARAMEL = ITEMS.register("caramel",
-            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CARCOOKIE = ITEMS.register("carcookie",
             () -> new Item(new Item.Properties().food(ModFoodProperties.CARCOOKIE)));
+    public static final RegistryObject<Item> SCARAMEL = ITEMS.register("scaramel",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SCARAMEL)));
+
+    public static final RegistryObject<Item> SC_PORK = ITEMS.register("sc_pork",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SC_PORK)));
+    public static final RegistryObject<Item> SC_LAMB = ITEMS.register("sc_lamb",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SC_LAMB)));
+    public static final RegistryObject<Item> SC_BEEF = ITEMS.register("sc_beef",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SC_BEEF)));
+
+    public static final RegistryObject<Item> CARAMEL = ITEMS.register("caramel",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SALT = ITEMS.register("salt",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sqmeshimod:caramel"
+    },
+    {
+      "item": "sqmeshimod:salt"
+    },
+    {
+      "item": "sqmeshimod:caramel"
+    },
+    {
+      "item": "sqmeshimod:caramel"
+    }
+  ],
+  "result": {
+    "id": "sqmeshimod:scaramel",
+    "count": 3
+  }
+}
