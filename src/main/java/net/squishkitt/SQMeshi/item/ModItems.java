@@ -15,6 +15,14 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.FUSEBUD)));
     public static final RegistryObject<Item> MARROW = ITEMS.register("marrow",
             () -> new Item(new Item.Properties().food(ModFoodProperties.MARROW)));
+    public static final RegistryObject<Item> BAPPLE = ITEMS.register("bapple",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BAPPLE)));
+    public static final RegistryObject<Item> CAPPLE = ITEMS.register("capple",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CAPPLE)));
+    public static final RegistryObject<Item> CARAMEL = ITEMS.register("caramel",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CARCOOKIE = ITEMS.register("carcookie",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CARCOOKIE)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

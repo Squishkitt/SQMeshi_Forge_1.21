@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "minecraft:apple"
+  },
+  "result": {
+    "id": "sqmeshimod:bapple"
+  },
+  "experience": 0.30,
+  "cookingtime": 250
+}
