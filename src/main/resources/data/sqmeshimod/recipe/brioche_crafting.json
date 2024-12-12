@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "#E#",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wheat"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        }
+    },
+    "result": {
+        "id": "sqmeshimod:brioche",
+        "count": 1
+    }
+}

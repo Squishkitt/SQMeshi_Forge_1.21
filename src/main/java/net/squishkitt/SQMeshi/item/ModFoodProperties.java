@@ -22,11 +22,20 @@ public class ModFoodProperties {
 
     public static final FoodProperties SC_PORK = new FoodProperties.Builder().nutrition(4).saturationModifier(0.7f)
             .effect(new MobEffectInstance(MobEffects.REGENERATION, 150, 2),1.0f).alwaysEdible().build();
-
     public static final FoodProperties SC_LAMB = new FoodProperties.Builder().nutrition(3).saturationModifier(0.7f)
             .effect(new MobEffectInstance(MobEffects.REGENERATION, 450, 1),1.0f).alwaysEdible().build();
-
     public static final FoodProperties SC_BEEF = new FoodProperties.Builder().nutrition(4).saturationModifier(0.7f)
             .effect(new MobEffectInstance(MobEffects.REGENERATION, 900),1.0f).alwaysEdible().build();
 
+    public static final FoodProperties GLOW_JELLO = new FoodProperties.Builder().nutrition(5).saturationModifier(1.0f)
+            .effect(new MobEffectInstance(MobEffects.GLOWING, 72000),1.0f).alwaysEdible().build();
+    public static final FoodProperties BEET_JELLO = new FoodProperties.Builder().nutrition(6).saturationModifier(1.0f)
+            .effect(new MobEffectInstance(MobEffects.SATURATION, 18000),1.0f).alwaysEdible().build();
+    public static final FoodProperties WARP_JELLO = new FoodProperties.Builder().nutrition(5).saturationModifier(1.0f)
+            .effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 6000),1.0f).alwaysEdible().build();
+    public static final FoodProperties CRIM_JELLO = new FoodProperties.Builder().nutrition(5).saturationModifier(1.0f)
+            .effect(new MobEffectInstance(MobEffects.ABSORPTION, 6000, 3),1.0f).alwaysEdible().build();
+
+    public static final FoodProperties BRIOCHE = new FoodProperties.Builder().nutrition(6).saturationModifier(0.5f)
+            .build();
 }

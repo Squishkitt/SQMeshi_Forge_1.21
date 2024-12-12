@@ -52,9 +52,17 @@ public class SQMeshi {
             event.accept(ModItems.CAPPLE);
             event.accept(ModItems.CARCOOKIE);
             event.accept(ModItems.SCARAMEL);
+
             event.accept(ModItems.SC_PORK);
             event.accept(ModItems.SC_LAMB);
             event.accept(ModItems.SC_BEEF);
+
+            event.accept(ModItems.GLOW_JELLO);
+            event.accept(ModItems.BEET_JELLO);
+            event.accept(ModItems.WARP_JELLO);
+            event.accept(ModItems.CRIM_JELLO);
+
+            event.accept(ModItems.BRIOCHE);
         }
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.CARAMEL);

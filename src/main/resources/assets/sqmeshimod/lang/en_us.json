@@ -5,9 +5,17 @@
   "item.sqmeshimod.capple": "Candy Apple",
   "item.sqmeshimod.carcookie": "Caramel-Chocolate Cookie",
   "item.sqmeshimod.scaramel": "Nether-Salted Caramel",
+
   "item.sqmeshimod.sc_pork": "Nether Salt Cured Porkchop",
   "item.sqmeshimod.sc_lamb": "Nether Salt Cured Mutton",
   "item.sqmeshimod.sc_beef": "Nether Salt Cured Beef",
+
+  "item.sqmeshimod.glow_jello": "Luminous Jelly",
+  "item.sqmeshimod.beet_jello": "Beetroot Jelly",
+  "item.sqmeshimod.warp_jello": "Warped Jelly",
+  "item.sqmeshimod.crim_jello": "Crimson Jelly",
+
+  "item.sqmeshimod.brioche": "Brioche",
 
   "item.sqmeshimod.caramel": "Caramel",
   "item.sqmeshimod.salt": "Nether Salt"
